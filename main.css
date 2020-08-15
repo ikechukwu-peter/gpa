@@ -1,0 +1,22 @@
+  body{
+    background-color: #eeeeee;
+} 
+table{
+    background: #cccccc;
+    border: 10px;
+} 
+#gpa{
+    background-color: rgb(242, 247, 250);
+    color: rgb(3, 26, 26);
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#computeGPA{
+    background: rgb(96, 199, 199);
+}
+
+#reset{
+    background: rgb(183, 236, 37);
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="grade.jpg" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="GPA Calcualtor made with pure javascript"
+    />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="main.css">
+
+            <title>GPA Calculator</title>
+     </head>
+        <body>
+            <div class="container">
+                <div class="row">
+                <div class="table table-responsive text-nowrap"></div>
+                    <table class="table  table-striped table-bordered table-hover table-sm">
+                        <thead class="thead-dark">
+                            <tr>
+                        <th scope="col" class="col-xs-4 "></th>
+                        <th scope="col" class="col-xs-4 ">Scores</th>
+                        <th scope="col" class="col-xs-4 ">Units/Credits</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Score 1</th>
+                            <td> <input id="gr1" type="number" class="grade" maxlength="5"></td>
+                            <td> <input type="number" id="un1" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 2</th>
+                            <td> <input id="gr2" type="number" class="grade"></td>
+                            <td> <input type="number" id="un2" class="unit"> </td>
+                            </tr>
+                            <th scope="row">Score 3</th>
+                            <td> <input id="gr3" type="number" class="grade"></td>
+                            <td> <input type="number" id="un3" class="unit"></td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Score 4</th>
+                            <td> <input id="gr4" type="number" class="grade"></td>
+                            <td> <input type="number" id="un4" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 5</th>
+                            <td> <input id="gr5" type="number" class="grade"></td>
+                            <td> <input type="number" id="un5" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 6</th>
+                            <td> <input  type="number" id="gr6" class="grade"></td>
+                            <td> <input type="number" id="un6" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 7</th>
+                            <td> <input id="gr7" type="number" class="grade"></td>
+                            <td> <input type="number" id="un7" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 8</th>
+                            <td> <input id="gr8" type="number" class="grade"></td>
+                            <td> <input type="number" id="un8" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 9</th>
+                            <td> <input id="gr9" type="number" class="grade"></td>
+                            <td> <input type="number" id="un9" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 10</th>
+                            <td> <input id="gr10" type="number" class="grade"></td>
+                            <td> <input type="number" id="un10" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 11</th>
+                            <td> <input id="gr11" type="number" class="grade"></td>
+                            <td> <input type="number" id="un11" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Score 12</th>
+                            <td> <input id="gr12" type="number" size="3" maxlength="3" class="grade"></td>
+                            <td> <input type="number" id="un12" class="unit"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="bg-info">Result of GPA:</th>
+                    
+                        <td> 
+                            <div id="gpa"></div>
+                        </td>
+                        <td> 
+                        
+                        </td>
+                        </tr>
+                    
+                        <tr>
+                            <td></td>
+                            <td> <input type="button" id="computeGPA" value="Compute GPA">­ </td>
+                            <td><input type="button" id="reset" value="RESET">­</td>
+                        </tr>        
+                    </tbody>
+                    </table>
+                
+                </div>
+            </div>  
+            </div>
+            <script src="script.js"></script>
+        </body>
+            <noscript>You need to enable JavaScript to run this app.</noscript>
+        </html>
